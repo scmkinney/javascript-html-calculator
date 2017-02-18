@@ -3,13 +3,17 @@
     <head>
         <title>My Calculator</title>
         <link rel="stylesheet" href="style.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Neuton:800|Open+Sans:800|VT323" rel="stylesheet">
     </head>
     <body>
         <h1 id="title">My Calculater</h1>
         <div id="key pad">
-            <table border="2">
+            <table>
                 <tr>
-                    <td colspan="4" id="display-bar" height="20px"></td>
+                    <td colspan="4" height="20px"><div ><input type="text" id="display-bar"/></div></td>
+                </tr>
+                <tr>
+                    <td colspan= "4" height="20px"><div id="calculator-brand">TI-BUDI</div></td>
                 </tr>
                 <tr>
                     <td><input type="button" value="9" onclick="display(9)"/></td>
